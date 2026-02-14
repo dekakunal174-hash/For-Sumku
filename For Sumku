@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="as">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .bouquet-img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+        }
+        .main-msg {
+            font-size: 22px;
+            color: #d63384;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover { transform: scale(1.1); background-color: #c9184a; }
+        
+        #second-page { display: none; margin-top: 30px; }
+        
+        .long-text {
+            text-align: justify;
+            line-height: 1.6;
+            color: #590d22;
+            background: #ffe5ec;
+            padding: 20px;
+            border-radius: 15px;
+            font-size: 17px;
+        }
+        .couple-photo {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 15px;
+            border: 5px solid #ffb3c1;
+        }
+        .last-msg {
+            font-size: 24px;
+            color: #ff4d6d;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="first-page">
+    <img src="https://img.freepik.com/free-photo/beautiful-bouquet-roses-outdoors_23-2149053742.jpg" alt="Rose Bouquet" class="bouquet-img">
+    
+    <div class="main-msg">
+        প্ৰেমৰ এই বিশেষ দিনটোত তোমালৈ মৰম যাচিলোঁ। ভালে থকাক প্রিয়তমা , আৰু সদায় মোৰে হয় থকাক❤️‍🩹🫂
+    </div>
+    
+    <button class="btn" onclick="showLove()">Click Here My Love ❤️</button>
+</div>
+
+<div class="container" id="second-page">
+    <div class="long-text">
+        Loveeeee uuuuuu xunn🥺🫂💜🫀🧿 tumak bohut bohut besi val pau moi 🥹 kiman val pau bujabo nuwaru dinok dine besi val pabo loisu tumak 🫂❤️‍🩹 aji kali tumi nohole val nelage nijoke kiba incomplete feel hoi o 🙂 aji kali sun din tut log puwar kotha tu beleg baru kintu olp xomoi karone naikia hole ako monot pori jai kotha nepata ke nuwarisu adat lagi goise tumar 😫✨️ tumar tu khong tu nakor agote tothapitu val lage tumi khong kora moi xodai monam eneke tumak val pai thakim 🫠😗 moi baru tumak amoni koru janu, kintu tumr life moi je bohut val lora xeituo janu full confidence tothapitu ako tumak besi irritating kora tuo moie 😅🫠 etia sage tumak kiman val pau lahe lahe buji paisa tumi etia tumar bahire belegok nelage 💜🧿 tumi etia mur aru xodai mure thakiba etia aru moi tumak karu lgt share koribo nuwaru 😑 abhi tum mera property hain sirf mera 🫂🫠 moi janu tumi mutke bohut val lora pai jaba kintu mur nisina ke tumak kunu val puwa nulabo koi disu eri nejaba kintu 🥺🙄 jimn kajiya brk up holeu ako val hbo ami xdai thakim bujisa ♾️ pasandida aurat ho tum ❤️‍🩹💎 tumi mur xanti hoi 🫠 kajia kiba kibi eibur temporary kintu etia aru amar val puwa tu permanent 🫂💜🫠<br><br>
+        <strong>Loveee youu xunn❤️‍🩹😗🫂</strong>
+    </div>
+
+    Line 89: <img src="IMG_0198.jpeg" alt="Us" class="couple-photo">
+    Line 90: <img src="IMG_0493.jpeg" alt="Us" class="couple-photo">
+    <div class="last-msg">
+        Loveeee youuu xunnn❤️‍🩹🫂🫠
+    </div>
+</div>
+
+<script>
+    function showLove() {
+        document.getElementById('first-page').style.display = 'none';
+        document.getElementById('second-page').style.display = 'block';
+        window.scrollTo(0, 0);
+    }
+</script>
+
+</body>
+</html>
